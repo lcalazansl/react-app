@@ -1,5 +1,3 @@
-// rafce short cut using ES7+ extension
-
 import { ReactNode } from "react";
 
 interface Props {
@@ -8,7 +6,7 @@ interface Props {
 
 const Alert = ({children}: Props) => {
   return (
-    <div>{children}</div>
+    <div className="alert alert-primary">{children}</div>
   )
 }
 
